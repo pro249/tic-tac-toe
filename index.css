@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+#tic-tac-toe-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: black;
+    gap: 10px;
+    width: 320px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    background-color: white;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.css-for-js-o{
+    display: block;
+    width: 600px;
+    font-size: 35px;
+    background-color: chartreuse;
+    text-align: center;
+
+}
+.css-for-js-x{
+    display: block;
+    font-size: 35px;
+    background-color: tomato;
+    width: 600px;
+    text-align: center;
+}
+.css-for-js-no-winner{
+    display: block;
+    font-size: 35px;
+    background-color:rgb(252, 255, 102);
+    width: 600px;
+    text-align: center;
+}
+#score{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#list-of-who-won{
+    margin-top: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
